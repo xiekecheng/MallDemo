@@ -1,0 +1,328 @@
+body {
+    -webkit-font-smoothing: antialiased;
+}
+button, input, select, textarea {
+    outline: 0;
+}
+header {
+    width: 100%;
+    height: 110px;
+    background: url(../images/headbg.jpeg) repeat-x left bottom;
+    // background-color: #f0a1a8;
+    section {
+        width: 1210px;
+        height: 100px;
+        margin: 0 auto;
+        // background-color: #ed5a65;
+
+        .logo {
+
+            a {
+                float: left;
+                width: 142px;
+                height: 42px;
+                margin-top: 20px;
+                // margin-bottom: 32px;
+                // border: 1px solid black;
+                background: url(http://misc.360buyimg.com/user/reg/3.0.0/css/i/icon.png) no-repeat;
+            }
+
+        }
+    }
+
+    .reg {
+        float: left;
+        font-size: 22px;
+        font-family: tahoma, arial, "Microsoft YaHei", "Hiragino Sans GB", u5b8bu4f53, sans-serif;
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
+        // vertical-align: middle;
+        margin-top: 34px;
+        margin-left: 18px;
+    }
+
+    .login {
+        float: right;
+        color: #A6A6A7;
+        margin-top: 55px;
+
+        a {
+            color: #F03F41;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+
+
+main {
+    width: 100%;
+    // height: 315px;
+    height: 406px;
+    // background-color: #eb507e;
+    padding-top:90px ; 
+    padding-bottom:188px; 
+    
+    article {
+        width: 400px;
+        height: 405px;
+        margin: 0 auto;
+        // background-color: #ec7696;
+        .top{
+            width: 400px;
+            height: 50px;
+            margin-bottom: 55px;
+            // background-color: #c4cbcf;
+            background-color: white;
+            position: relative;
+            .checkMobile{
+                width: 60px;
+                height: 50px;
+                float: left;
+                span{
+                    line-height: 24px;
+                    color: #fff;
+                    font-size: 12px;
+                    font-weight: 700;
+                    text-align: center;
+                    margin: 0 auto;
+                    display: block;
+                    width: 24px;
+                    height: 24px;
+                    background: url(http://misc.360buyimg.com/user/reg/3.0.0/css/i/reg-icon.png) 0 -200px no-repeat;
+
+                }
+                p{
+                    color: #33BB44;
+                    font-size: 12px;
+                    margin-top: 12px;
+                }
+            }
+            .line1{
+                width: 123px;
+                height: 9px;
+                position: absolute;
+                top: 7px;
+                left: 55px;
+                background: url(../images/reg-icon.png) 0 -100px;
+            }
+            .fillInfo{
+                // width: 60px;
+                height: 50px;
+                margin: 0 106px;
+                float: left;
+
+                span{
+                    line-height: 24px;
+                    color: #CDCDCD;
+                    font-size: 12px;
+                    font-weight: 700;
+                    text-align: center;
+                    margin: 0 auto;
+                    display: block;
+                    width: 24px;
+                    height: 24px;
+                    background: url(http://misc.360buyimg.com/user/reg/3.0.0/css/i/reg-icon.png) -45px -200px no-repeat;
+
+                }
+                p{
+                    color: #B8B8B6;
+                    // color: #33BB44;
+                    font-size: 12px;
+                    margin-top: 12px;
+                }
+            }
+            .line2{
+                width: 123px;
+                height: 9px;
+                position: absolute;
+                top: 7px;
+                left: 228px;
+                background: url(../images/reg-icon.png) 0 -100px;
+            }
+            .regSuccess{
+                // width: 60px;
+                height: 50px;
+                // margin-left: 212px;
+                float: left;
+
+                span{
+                    line-height: 24px;
+                    color: #CDCDCD;
+                    font-size: 12px;
+                    text-align: center;
+                    font-weight: 700;
+                    margin: 0 auto;
+                    display: block;
+                    width: 24px;
+                    height: 24px;
+                    background: url(http://misc.360buyimg.com/user/reg/3.0.0/css/i/reg-icon.png) -45px -200px no-repeat;
+
+                }
+                p{
+                    color: #B8B8B6;
+                    // color: #33BB44;
+                    font-size: 12px;
+                    margin-top: 12px;
+                }
+            }
+        }
+        .middle{
+            width: 400px;
+            height: 245px;
+
+            background-color: #FFFFFF;
+            .phoneWrap{
+                width: 398px;
+                height: 50px;
+                background-color: white;
+                border: 1px solid #E2E2E2;
+                margin-bottom: 34px;
+                label{
+                    width: 87px;
+                    height: 50px;
+                    font-size: 14px;
+                    color: #707070;
+                    float: left;
+                    padding-left: 20px;
+                    line-height: 50px;
+                    cursor: pointer;
+                    border-right: 1px solid #E2E2E2;
+                    a{
+                        width: 9px;
+                        height: 5px;
+                        display: inline-block;
+                        background: url(../images/icon.png) no-repeat -4px -158px;
+                    }
+                }
+                .number{
+                    width: 290px;
+                    height: 50px;
+                    // border: 1px solid #E2E2E2;
+                    float: left;
+                    input{
+                        border: 0 none;
+                        width: 190;
+                        // outline: 0;
+                        height: 19px;
+                        padding: 16px 2px 11px 20px;
+                    }
+                }
+            }
+            .codeWrap{
+                width: 398px;
+                height: 52px;
+                // background-color: #CDCDCD;
+                border: 1px solid #E2E2E2;
+                margin: 34px 0 52px 0;
+                font-size: 12px;
+                color: #5D5E5D;
+                text-align: center;
+                line-height: 52px;
+                cursor: pointer;
+            }
+            .codeWrap:hover{
+                border-color: #666;
+            }
+            .next{
+                width: 400px;
+                height: 54px;
+                background-color: #E22319;
+                text-align: center;
+                color: #FBE1DF;
+                line-height: 54px;
+                cursor: pointer;
+            }
+            .next:hover{
+                background: #c81623;
+            }
+        }
+        .bottom1{
+            width: 119px;
+            height: 26px;
+            margin-top: 28px;
+            // background-color: #51c4d3;
+            float: left;
+            // line-height: 26px;
+            a{
+                text-align: center;
+                display: block;
+                width: 119px;
+                height: 26px;
+                line-height: 26px;
+                font-size: 14px;
+                // line-height: 26px;
+                // vertical-align: middle;
+                // display: inline-block;
+                text-decoration: none;
+                color: #6D6D6D;
+                i{
+                    vertical-align: middle;
+                    display: inline-block;
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 5px;
+                    background: url(../images/reg-icon.png) no-repeat 0 -160px;
+                }
+            }
+            
+        }
+        .bottom2{
+            width: 119px;
+            height: 26px;
+            margin-top: 28px;
+            // background-color: #1491a8;
+            float: right;
+            line-height: 26px;
+
+            a{
+                font-size: 14px;
+                text-decoration: none;
+                color: #6D6D6D;
+                i{
+                    vertical-align: middle;
+                    margin-right: 5px;
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    background: url(../images/reg-icon.png) no-repeat -40px -160px;
+                }
+            }
+        }
+
+    }
+}
+
+footer {
+    width: 100%;
+    height: 154px;
+    // background-color: #3170a7;
+
+    section {
+        border-top: 1px solid #EAEAEA;
+        width: 1210px;
+        height: 154px;
+        margin: 0 auto;
+        // background-color: #baccd9;
+        text-align: center;
+        .nav{
+            margin-top: 35px;
+            margin-bottom: 24px;
+            a{
+                margin: 0 10px;
+                font-size: 12px;
+                color: #666;
+            }
+        }
+
+        
+        .copyright{
+            font-size: 12px;
+            // margin-top: 16px;
+            line-height: 12px;
+        }
+    }
+}

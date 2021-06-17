@@ -18,6 +18,11 @@ $(function () {
         }, function () {
             $('[name="agreement"]').prop('checked',true);
             layer.close(confirmLayer);
+        }, function () {
+            // layer.msg('也可以这样', {
+            //     time: 20000, //20s后自动关闭
+            //     btn: ['明白了', '知道了']
+            // });
         });
     })
     
@@ -64,15 +69,15 @@ $(function () {
             return false;
         }
 
-        //验证密码
-        if ($('[name="password"]').val() !== $('[name="repassword"]').val()) {
-            layer.msg('两次输入密码不一致', {
-                icon: 2,
-                time: 1500
+        // 验证密码
+        // if ($('[name="password"]').val() !== $('[name="repassword"]').val()) {
+        //     layer.msg('两次输入密码不一致', {
+        //         icon: 2,
+        //         time: 1500
 
-            })
-            return false;
-        }
+        //     })
+        //     return false;
+        // }
 
         // 邮箱验证
         if ($('[name="email"]').val() === '') {
@@ -116,22 +121,22 @@ $(function () {
         }
 
         // 同意协议
-        if (!$('[name="agreement"]').prop('checked')) {
-            layer.msg('请阅读协议并同意', {
-                icon: 1,
-                time: 1500
-            })
-            return false;
-        }
+        // if (!$('[name="agreement"]').prop('checked')) {
+        //     layer.msg('请阅读协议并同意', {
+        //         icon: 1,
+        //         time: 1500
+        //     })
+        //     return false;
+        // }
 
         // 禁用按钮避免过多请求
         $(this).prop('disabled', true)
 
 
         // 遮罩层
-        var loadIndex = layer.load(0, {
-            shade: false
-        });
+        // var loadIndex = layer.load(0, {
+        //     shade: false
+        // });
 
         $.ajax({
             method: "POST",
@@ -140,7 +145,7 @@ $(function () {
             dataType: 'json',
             success: res => {
                 $(this).prop('disabled', false)
-                layer.close(loadIndex);
+                // layer.close(loadIndex);
                 var {
                     meta: {
                         status,
@@ -152,14 +157,14 @@ $(function () {
                         icon: 1,
                         time: 1500
                     }, function () {
-                        location.href = 'login.html';
+                        location.href = 'login1.html';
                     })
                 } else {
                     layer.msg(msg, {
                         icon: 2,
                         time: 1500
                     }, function () {
-                        location.href = 'login.html';
+                        // location.href = 'login.html';
                     })
                 }
             }

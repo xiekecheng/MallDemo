@@ -1,0 +1,319 @@
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, select, textarea {
+  outline: 0;
+}
+
+header {
+  width: 100%;
+  height: 110px;
+  background: url(../images/headbg.jpeg) repeat-x left bottom;
+}
+
+header section {
+  width: 1210px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+header section .logo a {
+  float: left;
+  width: 142px;
+  height: 42px;
+  margin-top: 20px;
+  background: url(http://misc.360buyimg.com/user/reg/3.0.0/css/i/icon.png) no-repeat;
+}
+
+header .reg {
+  float: left;
+  font-size: 22px;
+  font-family: tahoma, arial, "Microsoft YaHei", "Hiragino Sans GB", u5b8bu4f53, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 34px;
+  margin-left: 18px;
+}
+
+header .login {
+  float: right;
+  color: #A6A6A7;
+  margin-top: 55px;
+}
+
+header .login a {
+  color: #F03F41;
+}
+
+header .login a:hover {
+  text-decoration: underline;
+}
+
+main {
+  width: 100%;
+  height: 406px;
+  padding-top: 90px;
+  padding-bottom: 188px;
+}
+
+main article {
+  width: 400px;
+  height: 405px;
+  margin: 0 auto;
+}
+
+main article .top {
+  width: 400px;
+  height: 50px;
+  margin-bottom: 55px;
+  background-color: white;
+  position: relative;
+}
+
+main article .top .checkMobile {
+  width: 60px;
+  height: 50px;
+  float: left;
+}
+
+main article .top .checkMobile span {
+  line-height: 24px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(http://misc.360buyimg.com/user/reg/3.0.0/css/i/reg-icon.png) 0 -200px no-repeat;
+}
+
+main article .top .checkMobile p {
+  color: #33BB44;
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+main article .top .line1 {
+  width: 123px;
+  height: 9px;
+  position: absolute;
+  top: 7px;
+  left: 55px;
+  background: url(../images/reg-icon.png) 0 -100px;
+}
+
+main article .top .fillInfo {
+  height: 50px;
+  margin: 0 106px;
+  float: left;
+}
+
+main article .top .fillInfo span {
+  line-height: 24px;
+  color: #CDCDCD;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(http://misc.360buyimg.com/user/reg/3.0.0/css/i/reg-icon.png) -45px -200px no-repeat;
+}
+
+main article .top .fillInfo p {
+  color: #B8B8B6;
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+main article .top .line2 {
+  width: 123px;
+  height: 9px;
+  position: absolute;
+  top: 7px;
+  left: 228px;
+  background: url(../images/reg-icon.png) 0 -100px;
+}
+
+main article .top .regSuccess {
+  height: 50px;
+  float: left;
+}
+
+main article .top .regSuccess span {
+  line-height: 24px;
+  color: #CDCDCD;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 700;
+  margin: 0 auto;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(http://misc.360buyimg.com/user/reg/3.0.0/css/i/reg-icon.png) -45px -200px no-repeat;
+}
+
+main article .top .regSuccess p {
+  color: #B8B8B6;
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+main article .middle {
+  width: 400px;
+  height: 245px;
+  background-color: #FFFFFF;
+}
+
+main article .middle .phoneWrap {
+  width: 398px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid #E2E2E2;
+  margin-bottom: 34px;
+}
+
+main article .middle .phoneWrap label {
+  width: 87px;
+  height: 50px;
+  font-size: 14px;
+  color: #707070;
+  float: left;
+  padding-left: 20px;
+  line-height: 50px;
+  cursor: pointer;
+  border-right: 1px solid #E2E2E2;
+}
+
+main article .middle .phoneWrap label a {
+  width: 9px;
+  height: 5px;
+  display: inline-block;
+  background: url(../images/icon.png) no-repeat -4px -158px;
+}
+
+main article .middle .phoneWrap .number {
+  width: 290px;
+  height: 50px;
+  float: left;
+}
+
+main article .middle .phoneWrap .number input {
+  border: 0 none;
+  width: 190;
+  height: 19px;
+  padding: 16px 2px 11px 20px;
+}
+
+main article .middle .codeWrap {
+  width: 398px;
+  height: 52px;
+  border: 1px solid #E2E2E2;
+  margin: 34px 0 52px 0;
+  font-size: 12px;
+  color: #5D5E5D;
+  text-align: center;
+  line-height: 52px;
+  cursor: pointer;
+}
+
+main article .middle .codeWrap:hover {
+  border-color: #666;
+}
+
+main article .middle .next {
+  width: 400px;
+  height: 54px;
+  background-color: #E22319;
+  text-align: center;
+  color: #FBE1DF;
+  line-height: 54px;
+  cursor: pointer;
+}
+
+main article .middle .next:hover {
+  background: #c81623;
+}
+
+main article .bottom1 {
+  width: 119px;
+  height: 26px;
+  margin-top: 28px;
+  float: left;
+}
+
+main article .bottom1 a {
+  text-align: center;
+  display: block;
+  width: 119px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #6D6D6D;
+}
+
+main article .bottom1 a i {
+  vertical-align: middle;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  background: url(../images/reg-icon.png) no-repeat 0 -160px;
+}
+
+main article .bottom2 {
+  width: 119px;
+  height: 26px;
+  margin-top: 28px;
+  float: right;
+  line-height: 26px;
+}
+
+main article .bottom2 a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #6D6D6D;
+}
+
+main article .bottom2 a i {
+  vertical-align: middle;
+  margin-right: 5px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url(../images/reg-icon.png) no-repeat -40px -160px;
+}
+
+footer {
+  width: 100%;
+  height: 154px;
+}
+
+footer section {
+  border-top: 1px solid #EAEAEA;
+  width: 1210px;
+  height: 154px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer section .nav {
+  margin-top: 35px;
+  margin-bottom: 24px;
+}
+
+footer section .nav a {
+  margin: 0 10px;
+  font-size: 12px;
+  color: #666;
+}
+
+footer section .copyright {
+  font-size: 12px;
+  line-height: 12px;
+}

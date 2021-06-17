@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>document</title>
+</head>
+<body>
+<button>退出</button>
+</body>
+<script>
+// 存储
+// 使用键值对存储
+// document.cookie = "键=值"
+// document.cookie = 'username=cuihua';
+
+// 设置有效期
+// document.cookie = 'username=cuihua;expires=时间日期对象';
+
+// 创建的时间是中国时间 - 东八区的时间
+// 为了让全世界的时间统一：世界标准时间 - 格林威治时间
+// var date = new Date()
+// console.log(date);
+// // 10秒以后的时间日期对象
+// date.setTime(date.getTime() - 8*3600*1000 + 10000*1000)
+// document.cookie = 'username=cuihua;expires='+date;
+// document.cookie = `username=cuihua;expires=${date}`;
+
+
+// document.cookie = `username=cuihua;expires=${date};path=/`;
+
+// cookie一次只能存储一个 - 存储多个，就存储多次
+// document.cookie = `username=cuihua;expires=${date};path=/`;
+// document.cookie = `age=20;expires=${date};path=/`;
+// document.cookie = `sex=男;expires=${date};path=/`;
+
+// 封装设置cookie的函数
+function setCookie(key,value,seconds,path='/'){
+    var date = new Date()
+    date.setTime(date.getTime() - 8*3600*1000 + seconds*1000)
+    document.cookie = `${key}=${value};expires=${date};path=${path}`;
+}
+
+setCookie('username','ruhua',3600)
+setCookie('username','ruhua',3600,'/http')
+
+// 删除cookie的函数
+function removeCookie(key,path="/"){ // 删除的cookie的路径一定要和设置的路径保持一致
+    setCookie(key,null,-1,path)
+}
+
+document.querySelector('button').onclick = function(){
+    removeCookie('username')
+}
+</script>
+</html>

@@ -1,0 +1,15 @@
+.jdnav {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.customNav {
+  list-style: none;
+  padding: 0;
+}
+
+.customNav li {
+  float: left;
+  line-height: 50px;
+  margin: 0 10px;
+}

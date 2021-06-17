@@ -1,0 +1,346 @@
+#header {
+  width: 100%;
+  height: 80px;
+}
+
+#header .header-con {
+  width: 990px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+#header .header-con .logo {
+  width: 990px;
+  height: 80px;
+}
+
+#header .header-con .logo .logo-left {
+  position: relative;
+  width: 295px;
+  height: 60px;
+  margin: 10px 0;
+  float: left;
+}
+
+#header .header-con .logo .logo-left b {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: 110px;
+  height: 40px;
+  border-color: #f97d1c;
+  background: url(https://misc.360buyimg.com/user/passport/1.0.0/css/i/l-icon.png) no-repeat;
+}
+
+#header .header-con .rightA {
+  float: right;
+  color: #666;
+  font-size: 12px;
+  position: relative;
+  top: 48px;
+}
+
+#header .header-con .rightA b {
+  width: 18px;
+  height: 14px;
+  vertical-align: middle;
+  display: inline-block;
+  background: url(https://misc.360buyimg.com/user/passport/1.0.0/css/i/q-icon.png);
+}
+
+#header .bottom {
+  height: 40px;
+  width: 100%;
+  background: #FFF8F0;
+}
+
+#header .bottom .bottom-con {
+  margin: 0 auto;
+  width: 990px;
+  height: 40px;
+}
+
+#header .bottom .bottom-con i {
+  background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/icon-tips.png);
+}
+
+#header .bottom .bottom-con p {
+  color: #9B9B9B;
+  font-size: 12px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#header .banner {
+  width: 100%;
+  height: 475px;
+  background-color: #00379E;
+}
+
+#header .banner .banner-con {
+  margin: 0 auto;
+  width: 990px;
+  height: 475px;
+  background: url(https://img1.360buyimg.com/pop/jfs/t1/190087/35/5747/97737/60b44bd5E31e479dc/ed78f177a9990034.jpg);
+}
+
+#header .banner .banner-con .loginBox {
+  width: 346px;
+  height: 400px;
+  margin-top: 10px;
+  float: right;
+  background: #FFFFFF;
+}
+
+#header .banner .banner-con .loginBox .box1 {
+  width: 346px;
+  height: 39px;
+  background-color: #FFF8F0;
+}
+
+#header .banner .banner-con .loginBox .box1 p {
+  font-size: 12px;
+  text-align: center;
+  line-height: 39px;
+  color: #9D9D9D;
+}
+
+#header .banner .banner-con .loginBox .box2 {
+  width: 346px;
+  height: 54px;
+  background-color: #fc7930;
+  border-bottom: 1px solid #F4F4F4;
+}
+
+#header .banner .banner-con .loginBox .box2 span:nth-child(1) {
+  width: 172px;
+  height: 54px;
+  background-color: #FFFFFF;
+  display: block;
+  float: left;
+  position: relative;
+}
+
+#header .banner .banner-con .loginBox .box2 span:nth-child(1) a {
+  text-align: center;
+  width: 99%;
+  height: 18px;
+  position: absolute;
+  top: 18px;
+  display: block;
+  font-size: 18px;
+  color: #666666;
+  line-height: 18px;
+  border-right: 1px solid #F4F4F4;
+}
+
+#header .banner .banner-con .loginBox .box2 span:nth-child(1) a:hover {
+  color: #E4393C;
+  font-weight: bold;
+}
+
+#header .banner .banner-con .loginBox .box2 span:nth-child(2) {
+  width: 173px;
+  height: 54px;
+  background-color: #FFFFFF;
+  display: block;
+  float: left;
+  text-align: center;
+}
+
+#header .banner .banner-con .loginBox .box2 span:nth-child(2) a {
+  font-size: 18px;
+  color: #666666;
+  line-height: 54px;
+}
+
+#header .banner .banner-con .loginBox .box2 span:nth-child(2) a:hover {
+  color: #E4393C;
+}
+
+#header .banner .banner-con .loginBox .box3 {
+  width: 306px;
+  height: 235px;
+  background-color: white;
+  border-bottom: 1px solid #F4F4F4;
+  padding: 0 20px 20px 20px;
+}
+
+#header .banner .banner-con .loginBox .box3 .message {
+  width: 306px;
+  height: 23px;
+  font-size: 10px;
+  color: #E4393C;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #FFEBEB;
+  border: 1px solid #FACCC6;
+  text-align: center;
+  line-height: 23px;
+}
+
+#header .banner .banner-con .loginBox .box3 .user {
+  width: 306px;
+  height: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #BDBDBE;
+  background-color: #c6dfc8;
+}
+
+#header .banner .banner-con .loginBox .box3 .user input {
+  width: 304px;
+  height: 18px;
+  padding: 10px 0 10px 0px;
+}
+
+#header .banner .banner-con .loginBox .box3 .pwd {
+  width: 306px;
+  height: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #BDBDBE;
+  background-color: #ad9e5f;
+}
+
+#header .banner .banner-con .loginBox .box3 .pwd input {
+  width: 304px;
+  height: 38px;
+}
+
+#header .banner .banner-con .loginBox .box3 .forgetPwd {
+  width: 306px;
+  height: 18px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#header .banner .banner-con .loginBox .box3 .forgetPwd a {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 12px;
+  color: #696868;
+}
+
+#header .banner .banner-con .loginBox .box3 .login {
+  width: 306px;
+  height: 34px;
+  border: 1px solid #E4393C;
+  background-color: #E4393C;
+}
+
+#header .banner .banner-con .loginBox .box3 .login a {
+  color: #FFFEFF;
+  font-size: 18px;
+  width: 306px;
+  height: 33px;
+  text-align: center;
+  line-height: 33px;
+  display: block;
+}
+
+#header .banner .banner-con .loginBox .box4 {
+  width: 306px;
+  height: 18px;
+  padding: 16px 20px;
+  background-color: #FCFCFC;
+}
+
+#header .banner .banner-con .loginBox .box4 ul li:nth-child(1) {
+  float: left;
+}
+
+#header .banner .banner-con .loginBox .box4 ul li:nth-child(1) a {
+  display: inline-block;
+  font-size: 10px;
+  color: #707070;
+}
+
+#header .banner .banner-con .loginBox .box4 ul li:nth-child(1) a b {
+  line-height: 18px;
+  margin-right: 4px;
+  width: 19px;
+  height: 18px;
+  display: block;
+  float: left;
+  background: url(https://misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/QQ-weixin.png);
+}
+
+#header .banner .banner-con .loginBox .box4 ul li:nth-child(1) span {
+  margin: 0 11px;
+  font-size: 12px;
+  color: #707070;
+}
+
+#header .banner .banner-con .loginBox .box4 ul li:nth-child(2) {
+  float: left;
+}
+
+#header .banner .banner-con .loginBox .box4 ul li:nth-child(2) a {
+  display: inline-block;
+  height: 22px;
+  font-size: 10px;
+  color: #707070;
+}
+
+#header .banner .banner-con .loginBox .box4 ul li:nth-child(2) a b {
+  width: 19px;
+  height: 18px;
+  display: block;
+  float: left;
+  margin-right: 4px;
+  background: url(https://misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/QQ-weixin.png) no-repeat;
+  background-position: -19px 0;
+}
+
+#header .banner .banner-con .loginBox .box4 ul li:nth-child(3) {
+  float: right;
+}
+
+#header .banner .banner-con .loginBox .box4 ul li:nth-child(3) a {
+  display: inline-block;
+  font-size: 14px;
+  color: #B61D1D;
+}
+
+#header .banner .banner-con .loginBox .box4 ul li:nth-child(3) a b {
+  margin-right: 4px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  background: url(https://misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2018-0827/i/pwd-icons-new.png) -104px -75px no-repeat;
+}
+
+#header .banner .banner-con .loginBox .box4 ul li:nth-child(3) a:hover {
+  text-decoration: underline;
+}
+
+#header footer {
+  width: 100%;
+  height: 70px;
+}
+
+#header footer .footer-con {
+  width: 990px;
+  height: 47px;
+  padding-top: 23px;
+  margin: 0 auto;
+  color: #666;
+  text-align: center;
+}
+
+#header footer .footer-con .nav {
+  margin-bottom: 10px;
+}
+
+#header footer .footer-con .nav a {
+  margin: 0 10px;
+  font-size: 12px;
+  color: #666;
+}
+
+#header footer .footer-con .copyright {
+  font-size: 12px;
+  line-height: 12px;
+}

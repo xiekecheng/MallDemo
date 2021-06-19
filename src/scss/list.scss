@@ -1,0 +1,81 @@
+.content {}
+
+.goodsName {
+    // overflow: hidden;
+    // text-overflow: ellipsis;
+    // display: -webkit-box; //作为弹性伸缩盒子模型显示。
+    // -webkit-box-orient: vertical; //设置伸缩盒子的子元素排列方式--从上到下垂直排列
+    // -webkit-line-clamp: 1; //显示的行
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    color: #666;
+    font-size: 16px;
+}
+.goodsDesc{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.row .thumbnail img {
+    width: 100%;
+    height: 250px;
+}
+.jdprice{
+    margin: 0 10px;
+    margin-bottom: 8px;
+    // display: inline-block;
+}
+.jdprice >em{
+   color: #e4393c;
+   font-size: 20px;
+   line-height: 22px;
+}
+.jdprice >b{
+    color: #e4393c;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Verdana;
+    line-height: 22px;
+ }
+ .caption .spanNum{
+    color: #646fb0;
+    font-family: verdana;
+    font-weight: 700;
+    font-size: 12px;
+ }
+ .caption .goodscomment{
+    color: #a7a7a7;
+    font-weight: 400;
+    font-size: 12px;
+ }
+ 
+ .caption .shopName{
+    color: #999;
+    display: inline-block;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+ }
+ .caption .shopName a{
+    color: #999;
+ }
+ .thumbnail:hover{
+     border-color: #e9e9e9;
+     box-shadow: 0 0 2px 2px #f8f8f8;
+     z-index: 2;
+ }
+
+
+ .row .thumbnail{
+    // border:  1px solid #fff;;
+
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 38px 9px 10px;
+    transition: border-color .1s ease;
+ }

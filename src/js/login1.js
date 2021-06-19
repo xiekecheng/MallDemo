@@ -13,7 +13,7 @@ $(function () {
         if ($('[name="username"]').val() === '') {
             layer.msg('用户名不能为空', {
                 icon: 2,
-                time: 1500
+                time: 1000
 
             })
             return false;
@@ -23,7 +23,7 @@ $(function () {
         if ($('[name="password"]').val() === '') {
             layer.msg('密码不能为空', {
                 icon: 2,
-                time: 1500
+                time: 1000
 
             })
             return false;
@@ -56,14 +56,25 @@ $(function () {
 
                     layer.msg(msg, {
                         icon: 1,
-                        time: 1500
+                        time: 1000
                     }, function () {
-                        location.href = 'home.html';
+                        // 如果之前在别的地方点击的跳转,则跳转回之前页面,否则进入主页
+                        var url = localStorage.getItem('url');
+                        // console.log('url',url);
+                        if (url) {
+                            // 跳转前将本地存储url删除
+                            localStorage.removeItem('url');
+                            
+                            location.href = url;
+                        }else{
+                            location.href = 'home.html';
+                        }
+                        
                     })
                 } else {
                     layer.msg(msg, {
                         icon: 2,
-                        time: 1500
+                        time: 1000
                     }, function () {
                         // location.href = 'login.html';
                     })

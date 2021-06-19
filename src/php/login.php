@@ -4,6 +4,9 @@ header( 'content-type:text/html;charset=utf8' );
 $username = $_POST['username'];
 $password = $_POST['password'];
 
+// $username = 'xkccoding3';
+// $password = 'qqqqqq';
+
 $con = mysqli_connect( 'localhost', 'root', 'xkc19950', 'test' );
 mysqli_query( $con, 'set names utf8' );
 

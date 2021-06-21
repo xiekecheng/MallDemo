@@ -60,3 +60,82 @@
 .small img.active {
   border-color: red;
 }
+
+.detail-top {
+  background-color: antiquewhite;
+  height: 500px;
+}
+
+.detail-right {
+  width: 700px;
+  margin-left: 30px;
+}
+
+.detail-bottom {
+  height: 500px;
+}
+
+.history {
+  width: 300px;
+  height: 400px;
+  background-color: aquamarine;
+}
+
+* {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tab {
+  width: 870px;
+  height: 400px;
+  border: 1px solid #000;
+  margin-left: 30px;
+}
+
+.tab ul {
+  height: 50px;
+  background-color: #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.tab ul li {
+  width: 100px;
+  height: 30px;
+  background-color: pink;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tab ul li.active {
+  background-color: #0f0;
+  color: #fff;
+}
+
+.tab ol {
+  height: 350px;
+}
+
+.tab ol li a img {
+  width: 870px;
+  height: 350px;
+}
+
+.tab ol li {
+  display: none;
+}
+
+.tab ol li.active {
+  display: block;
+}

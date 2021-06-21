@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>列表</title>
+    <title>购物车</title>
     <link rel="shortcut icon" href="./favicon.ico" />
     <!-- 初始化css -->
     <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
@@ -14,22 +14,26 @@
     <!-- 公共样式 -->
     <link rel="stylesheet" href="./css/common.css">
     <!-- 当前页面css -->
-    <link rel="stylesheet" href="./css/list.css">
+    <link rel="stylesheet" href="./css/cart.css">
     <!-- 引入jquery -->
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <!-- 引入layer -->
     <script src="../node_modules/layui-layer/dist/layer.js"></script>
     <script src="./js/page.js"></script>
+
     <!-- 引入自己的js -->
-    <script src="./js/common.js"></script>
-    <script src="./js/list.js?a==33"></script>
+    <!-- <script src="./js/common.js"></script> -->
+    <script src="./js/tab.js"></script>
     <script src="./js/cookie.js"></script>
+    <script src="./js/enlarge.js"></script>
+    <script src="./js/cart.js"></script>
+
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="content ">
-            <!-- 导航栏 -->
+            <!-- Start导航栏 -->
             <div class="content jdnav">
                 <nav class="navbar navbar-default">
                     <div class="container-fluid">
@@ -90,10 +94,10 @@
 
                             <ul class="customNav navbar-right">
                                 <li>
-                                    <a href="login1.html">登录</a>
+                                    <a href="javascript:;">登录</a>
                                 </li>
                                 <li>
-                                    <a href="register1.html">注册</a>
+                                    <a href="javascript:;">注册</a>
                                 </li>
                             </ul>
 
@@ -101,51 +105,64 @@
                     </div><!-- /.container-fluid -->
                 </nav>
             </div>
-            <div class="content goods">
-                <div class="row">
-                    <!-- <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <div class="thumbnail">
-                            <img src="..." alt="...">
-                            <div class="caption">
-                                <p><span class="jdprice"><b>￥</b><em>333</em></span></p>
-                                <h3 class="goodsName">南极人【10双装】夏季男士丝袜超薄中筒袜男袜子薄款透气纯色商务袜P3038</h3>
-                                <p>描述</p>
-                                <p><span class="spanNum">500+<strong class="goodscomment">条评价</strong></span></p>
-                                <p class="shopName">Apple京东旗舰店</p>
-                                <p>
-                                    <a href="#" class="btn btn-primary" role="button">查看详情</a> <a href="#"
-                                        class="btn btn-default" role="button">加入购物车</a>
-                                    </p>
-                                    
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
+            <!-- End导航栏 -->
 
+            <div class="content cart">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th><input name="selectAll" type="checkbox">全选</th>
+                            <th>商品</th>
+                            <th>单价</th>
+                            <th>数量</th>
+                            <th>小计</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- <tr>
+                            <th scope="row">
+                                <input type="checkbox" checked='true'>
+                            </th>
+                            <td class="goods">
+                                <div class="goodsImg fl">
+                                    <img src="./images/81d94dcada441117.jpg.webp" alt="">
+                                </div>
+                                <div class="goodsDescr">
+                                    <p>Apple Watch Series 6智能手表 GPS款 44毫米深空灰色铝金属表壳 黑色运</p>
+                                </div>
+                            </td>
+                            <td>￥3,399.00</td>
+                            <td><button class="btn reduce btn-sm">-</button><input type="number" name="number"
+                                    value="1"><button class="btn add btn-sm">+</button></td>
+                            <td>¥3399.00</td>
+                            <td><a href="">删除</a></td>
+                        </tr> -->
+
+                    </tbody>
+                    <tfoot>
+                        <th scope="row">
+                            <input name="selectAll" type="checkbox">全选
+                        </th>
+                        <td>
+                        </td>
+                        <td></td>
+                        <td>已选择<span class="totalNum">13</span>件商品</td>
+                        <td>总价:￥ <span class="totalPrice">3,399.00</span> </td>
+                        <td>去结算</td>
+                    </tfoot>
+                </table>
             </div>
-            <div class="page"></div>
-            <!-- <nav aria-label="Page navigation">
-                <ul class="pagination pagination-lg">
-                  <li>
-                    <a href="#" aria-label="Previous">
-                      <span aria-hidden="true">&laquo;</span>
-                    </a>
-                  </li>
-                  <li><a href="#">1</a></li>
-                  <li><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#">4</a></li>
-                  <li><a href="#">5</a></li>
-                  <li>
-                    <a href="#" aria-label="Next">
-                      <span aria-hidden="true">&raquo;</span>
-                    </a>
-                  </li>
-                </ul>
-              </nav> -->
-        </div>
-    </div>
 
+
+
+
+        </div>
+
+
+
+    </div>
 </body>
+
 
 </html>

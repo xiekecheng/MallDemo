@@ -6,7 +6,7 @@ $(function () {
     if(remusername){
         $('[name="username"]').val(remusername);
     }
-    console.log(111);
+    // console.log(111);
     $('.jdlogin').on('click', function () {
     // $('[type="button"]').on('click', function () {
         // 验证用户名

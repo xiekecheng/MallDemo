@@ -1,0 +1,1112 @@
+body {
+  font: 12px/150% tahoma, arial, Microsoft YaHei, Hiragino Sans GB, "\u5b8b\u4f53", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #666;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.contentNav {
+  width: 100%;
+  height: 30px;
+  background-color: #E3E4E5;
+}
+
+.contentLogo {
+  margin: 0 auto;
+  width: 100%;
+  height: 82px;
+  background-color: #FFFFFF;
+}
+
+header {
+  width: 100%;
+  height: 112px;
+  background-color: #1491a8;
+}
+
+header nav {
+  margin: 0 auto;
+  width: 1190px;
+  height: 30px;
+  background-color: #E3E4E5;
+}
+
+header nav .fl {
+  float: left;
+}
+
+header nav .fl li:nth-child(1) {
+  float: left;
+}
+
+header nav .fl li:nth-child(1) a {
+  line-height: 30px;
+  text-decoration: none;
+  color: #999;
+  font-size: 12px;
+}
+
+header nav .fl li:nth-child(1) i {
+  font-family: iconfont;
+}
+
+header nav .fl li:nth-child(2) {
+  margin-left: 10px;
+  float: left;
+  color: #999;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+header nav .fr {
+  float: right;
+}
+
+header nav .fr li {
+  float: left;
+  padding: 0 10px;
+}
+
+header nav .fr .space {
+  width: 1px;
+  height: 12px;
+  float: left;
+  background: #ccc;
+  padding: 0;
+  margin-top: 9px;
+}
+
+header nav .fr a {
+  color: #999;
+  line-height: 30px;
+}
+
+header nav .fr li:nth-child(1) a {
+  text-decoration: none;
+}
+
+header nav .fr li:nth-child(1) i {
+  display: inline-block;
+  width: 38px;
+  height: 16px;
+  background: url(../images/user-plus-status.png) no-repeat 0 -68px;
+}
+
+header section {
+  margin: 0 auto;
+  width: 1190px;
+  height: 82px;
+}
+
+header section .logo {
+  width: 158px;
+  height: 82px;
+  float: left;
+}
+
+header section .logo a {
+  width: 158px;
+  height: 82px;
+  display: block;
+  background: url(../images/common.png) no-repeat 0 0;
+}
+
+header section .myJD {
+  float: left;
+  font-size: 20px;
+  color: #333;
+  width: 80px;
+  height: 18px;
+  padding: 40px 0 0 16px;
+}
+
+header section .itemNav {
+  float: left;
+  width: 200px;
+  height: 30px;
+  padding-top: 35px;
+  margin-left: 95px;
+}
+
+header section .itemNav .homePage {
+  color: #df3028;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center;
+  cursor: default;
+  margin-right: 25px;
+}
+
+header section .itemNav .homePage > a {
+  color: #df3028;
+}
+
+header section .itemNav .userSetting {
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center;
+  cursor: default;
+  color: #333;
+}
+
+main {
+  width: 100%;
+  height: 1274px;
+  background-color: #F0F3EF;
+}
+
+main .content {
+  margin: 0 auto;
+  width: 1190px;
+  height: 1324px;
+}
+
+main .content aside {
+  width: 170px;
+  height: 1274px;
+  float: left;
+}
+
+main .content aside .dt {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+}
+
+main .content aside li {
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #333;
+}
+
+main .content aside li a {
+  color: #333;
+}
+
+main .content aside li a:hover {
+  color: #c81623;
+}
+
+main .content aside .info-list {
+  padding: 15px 20px;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+main .content article {
+  width: 1000px;
+  height: 1221px;
+  background-color: #F0F3EF;
+  float: right;
+}
+
+main .content article .top {
+  padding: 20px 0;
+  width: 1000px;
+  height: 243px;
+}
+
+main .content article .top .user {
+  width: 250px;
+  height: 243px;
+  float: left;
+  background: url(https://misc.360buyimg.com/user/myjd/home/2.0.17/css/i/c-01.png) no-repeat 0 0;
+  background-color: #e2231a;
+}
+
+main .content article .top .user .avatar {
+  width: 250px;
+  height: 187px;
+  position: relative;
+  background-color: #E22319;
+  overflow: hidden;
+  text-align: center;
+}
+
+main .content article .top .user .avatar .portrait {
+  display: block;
+  width: 64px;
+  height: 64px;
+  border: 4px solid white;
+  border-radius: 100%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+main .content article .top .user .avatar .portrait img {
+  width: 64px;
+  height: 64px;
+}
+
+main .content article .top .user .avatar span {
+  position: absolute;
+  left: 105px;
+  top: 80px;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 40px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+}
+
+main .content article .top .user .avatar .username {
+  margin-bottom: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+main .content article .top .user .avatar .username a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+main .content article .top .user .avatar .score .score-vip {
+  height: 22px;
+  border: 1px solid white;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 22px;
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0 5px;
+  color: #fff;
+}
+
+main .content article .top .user .avatar .score .score-vip:hover {
+  background-color: #fff;
+  color: #c81623;
+}
+
+main .content article .top .user .avatar .score .score-credit {
+  height: 22px;
+  border: 1px solid white;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 22px;
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0 5px;
+  color: #fff;
+}
+
+main .content article .top .user .avatar .score .score-credit:hover {
+  background-color: #fff;
+  color: #c81623;
+}
+
+main .content article .top .user .vipPlus {
+  width: 210px;
+  height: 36px;
+  padding: 10px 20px;
+  background-color: #232331;
+}
+
+main .content article .top .user .vipPlus .text {
+  float: left;
+}
+
+main .content article .top .user .vipPlus .text h3 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #f4ca3a;
+}
+
+main .content article .top .user .vipPlus .text span {
+  color: #f4ca3a;
+}
+
+main .content article .top .user .vipPlus .openMembership {
+  padding: 0 10px;
+  float: right;
+  height: 26px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #232331;
+  border-radius: 14px;
+  background-color: #f4ca3a;
+  margin-top: 5px;
+}
+
+main .content article .top .user .vipPlus .openMembership:hover {
+  background-color: #fff;
+}
+
+main .content article .top .wallet {
+  width: 750px;
+  height: 225px;
+  margin: 9px 0;
+  float: left;
+  background-color: white;
+}
+
+main .content article .top .wallet .my-wallet {
+  width: 710px;
+  height: 55px;
+  padding: 0 20px;
+  border-bottom: 1px solid #f0f3ef;
+}
+
+main .content article .top .wallet .my-wallet h3 {
+  font-size: 16px;
+  line-height: 55px;
+  float: left;
+  font-weight: 400;
+}
+
+main .content article .top .wallet .my-wallet button {
+  position: relative;
+  float: right;
+  margin-top: 24px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  width: 20px;
+  height: 14px;
+  text-align: center;
+  background: url(../images/sprite.png) no-repeat -201px -81px;
+  background-color: transparent;
+}
+
+main .content article .top .info {
+  width: 710px;
+  height: 129px;
+  padding: 20px;
+}
+
+main .content article .top .info ul {
+  width: 710px;
+  height: 129px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 10px;
+}
+
+main .content article .top .info ul li .num {
+  line-height: 24px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+main .content article .top .info ul li .num a {
+  color: #333;
+}
+
+main .content article .top .info ul li .name {
+  margin: 10px 0 30px 0;
+}
+
+main .content article .top .info ul li .operate a {
+  color: #4184e8;
+}
+
+main .content article .order {
+  width: 694px;
+  height: 794px;
+  float: left;
+}
+
+main .content article .order .my-order {
+  width: 694px;
+  height: 396px;
+  margin-bottom: 20px;
+}
+
+main .content article .order .my-order .title {
+  height: 55px;
+  padding: 0 20px;
+  background-color: #FFFFFF;
+  line-height: 55px;
+  border-bottom: 1px solid #f0f3ef;
+}
+
+main .content article .order .my-order .title h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+main .content article .order .my-order nav {
+  width: 654px;
+  height: 90px;
+  padding: 15px 20px;
+  background-color: #FFFFFF;
+}
+
+main .content article .order .my-order nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .content article .order .my-order nav ul li:nth-child(1) {
+  width: 90px;
+  height: 77px;
+  padding-top: 13px;
+}
+
+main .content article .order .my-order nav ul li:nth-child(1) a {
+  width: 90px;
+  height: 77px;
+  color: #333;
+}
+
+main .content article .order .my-order nav ul li:nth-child(1) a .icon {
+  width: 44px;
+  height: 35px;
+  background: url(../images/sprite.png) no-repeat 0 -200px;
+}
+
+main .content article .order .my-order nav ul li:nth-child(2) {
+  width: 90px;
+  height: 77px;
+  padding-top: 13px;
+}
+
+main .content article .order .my-order nav ul li:nth-child(2) a {
+  width: 90px;
+  height: 77px;
+  color: #333;
+}
+
+main .content article .order .my-order nav ul li:nth-child(2) a .icon {
+  width: 40px;
+  height: 38px;
+  background: url(../images/sprite.png) no-repeat -80px -200px;
+}
+
+main .content article .order .my-order nav ul li:nth-child(3) {
+  width: 90px;
+  height: 77px;
+  padding-top: 13px;
+}
+
+main .content article .order .my-order nav ul li:nth-child(3) a {
+  width: 90px;
+  height: 77px;
+  color: #333;
+}
+
+main .content article .order .my-order nav ul li:nth-child(3) a .icon {
+  width: 41px;
+  height: 38px;
+  background: url(../images/sprite.png) no-repeat -160px -200px;
+}
+
+main .content article .order .my-order nav ul li:nth-child(4) {
+  width: 90px;
+  height: 77px;
+  padding-top: 13px;
+}
+
+main .content article .order .my-order nav ul li:nth-child(4) a {
+  width: 90px;
+  height: 77px;
+  color: #333;
+}
+
+main .content article .order .my-order nav ul li:nth-child(4) a .icon {
+  width: 39px;
+  height: 41px;
+  background: url(../images/sprite.png) no-repeat -240px -200px;
+}
+
+main .content article .order .my-order nav ul li:nth-child(5) {
+  width: 90px;
+  height: 77px;
+  padding-top: 13px;
+}
+
+main .content article .order .my-order nav ul li:nth-child(5) a {
+  width: 90px;
+  height: 77px;
+  color: #333;
+}
+
+main .content article .order .my-order nav ul li:nth-child(5) a .icon {
+  width: 41px;
+  height: 41px;
+  background: url(../images/sprite.png) no-repeat -320px -200px;
+}
+
+main .content article .order .my-order .empty {
+  width: 694px;
+  height: 70px;
+  padding: 60px 0 90px;
+  background-color: #FFFFFF;
+  text-align: center;
+  line-height: 70px;
+  font-size: 12px;
+  color: #999;
+}
+
+main .content article .order .my-order .empty::before {
+  content: "";
+  display: inline-block;
+  margin-right: 20px;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 70px;
+  height: 70px;
+  background: url(../images/sprite.png) no-repeat -430px -95px;
+}
+
+main .content article .order .plus {
+  position: relative;
+  width: 694px;
+  height: 358px;
+  background-color: #f5ca3a;
+}
+
+main .content article .order .plus .mt {
+  width: 654px;
+  height: 27px;
+  padding: 20px 20px 5px;
+  position: relative;
+}
+
+main .content article .order .plus .mt h3 {
+  float: left;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+}
+
+main .content article .order .plus .mt a {
+  float: right;
+  background-color: #2c2e40;
+  line-height: 27px;
+  border-radius: 14px;
+  padding: 0 10px;
+}
+
+main .content article .order .plus .mt a span {
+  color: #f5ca3a;
+}
+
+main .content article .order .plus .mt a i {
+  color: #f5ca3a;
+  padding-left: 5px;
+}
+
+main .content article .order .plus .mt a:hover {
+  background-color: #fff;
+  color: #2c2e40;
+}
+
+main .content article .order .plus .mc {
+  width: 674px;
+  height: 286px;
+  background-color: #FFFFFF;
+  margin: 10px;
+  position: relative;
+}
+
+main .content article .order .plus .mc .stick-list {
+  width: 674px;
+  height: 286px;
+  overflow: hidden;
+}
+
+main .content article .order .plus .mc .stick-list .service-item {
+  width: 130px;
+  height: 220px;
+  padding: 10px 18px;
+  text-align: center;
+  float: left;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+main .content article .order .plus .mc .stick-list .service-item .price-plus {
+  color: #333;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+main .content article .order .plus .mc .stick-list .service-item .price-plus i {
+  position: relative;
+  top: -2px;
+  margin-left: 10px;
+  padding: 0 3px 1px;
+  background-color: #414141;
+  color: #fff38d;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+main .content article .order .plus .mc .stick-list .service-item .price {
+  color: #999;
+}
+
+main .content article .order .plus .mc .stick-list .service-item .price b {
+  font-weight: bold;
+}
+
+main .content article .order .plus .mc .stick-list .service-item .name {
+  color: #333;
+  height: 40px;
+  line-height: 20px;
+  overflow: hidden;
+}
+
+main .content article .order .plus .mc .stick-list .service-item .icon-sprite {
+  display: block;
+  margin: 10px auto 0;
+  width: 40px;
+  height: 40px;
+  background: url(../images/sprite.png) no-repeat;
+}
+
+main .content article .order .plus .mc .stick-list .service-item .icon-service1 {
+  background-position: 0 0;
+}
+
+main .content article .order .plus .mc .stick-list .service-item .icon-service2 {
+  background-position: -40px 0;
+}
+
+main .content article .order .plus .mc .stick-list .service-item .icon-service3 {
+  background-position: -80px 0;
+}
+
+main .content article .order .plus .mc .stick-list .service-item .icon-service4 {
+  background-position: -120px 0;
+}
+
+main .content article .order .plus .mc .stick-list .service-item .icon-service5 {
+  background-position: -160px 0;
+}
+
+main .content article .order .plus .mc .stick-list .service-item .icon-service6 {
+  background-position: -200px 0;
+}
+
+main .content article .order .plus::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110px;
+  background: url(https://misc.360buyimg.com/user/myjd/home/2.0.17/css/i/x-01.png) no-repeat 0 0;
+}
+
+main .content article .aside-info {
+  width: 286px;
+  height: 938px;
+  float: right;
+}
+
+main .content article .aside-info .my-follow {
+  width: 286px;
+  height: 156px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+main .content article .aside-info .my-follow .mt {
+  width: 246px;
+  height: 55px;
+  padding: 0 20px;
+  border-bottom: 1px solid #f0f3ef;
+}
+
+main .content article .aside-info .my-follow .mt h3 {
+  font-size: 16px;
+  line-height: 55px;
+  font-weight: 400;
+}
+
+main .content article .aside-info .my-follow .mc {
+  height: 100px;
+}
+
+main .content article .aside-info .my-follow .mc ul {
+  width: 246px;
+  height: 60px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .content article .aside-info .my-follow .mc ul li a {
+  color: #666;
+}
+
+main .content article .aside-info .my-follow .mc ul li a .num {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+main .content article .aside-info .my-follow .mc ul li a .num .badge {
+  position: relative;
+  top: -10px;
+  left: 3px;
+  padding: 0 3px;
+  height: 16px;
+  line-height: 16px;
+  border-radius: 8px;
+  border: 1px solid #e04440;
+  background-color: #fff;
+  color: #e04440;
+  text-align: center;
+}
+
+main .content article .aside-info .usual {
+  width: 286px;
+  height: 166px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+main .content article .aside-info .usual .mt {
+  width: 246px;
+  height: 55px;
+  padding: 0 20px;
+  border-bottom: 1px solid #f0f3ef;
+}
+
+main .content article .aside-info .usual .mt h3 {
+  float: left;
+  color: #333;
+  font-size: 16px;
+  line-height: 55px;
+  font-weight: 400;
+}
+
+main .content article .aside-info .usual .mt .more {
+  float: right;
+  position: relative;
+  font-size: 12px;
+  color: #666;
+  line-height: 55px;
+  padding-right: 10px;
+}
+
+main .content article .aside-info .usual .mt .more::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 22px;
+  width: 5px;
+  height: 10px;
+  background: url(../images/sprite.png) no-repeat -81px -161px;
+}
+
+main .content article .aside-info .usual .mc {
+  width: 256px;
+  height: 60px;
+  padding: 15px 15px 35px;
+}
+
+main .content article .aside-info .usual .mc .img1 {
+  float: left;
+}
+
+main .content article .aside-info .usual .mc .img2 {
+  float: right;
+}
+
+main .content article .aside-info .service {
+  width: 286px;
+  height: 270px;
+  background-color: #fff;
+}
+
+main .content article .aside-info .service .mt {
+  width: 246px;
+  height: 55px;
+  padding: 0 20px;
+}
+
+main .content article .aside-info .service .mt h3 {
+  float: left;
+  color: #333;
+  font-size: 16px;
+  line-height: 55px;
+  font-weight: 400;
+}
+
+main .content article .aside-info .service .mc {
+  width: 286px;
+  height: 164px;
+  border: 1px solid #f0f3ef;
+}
+
+main .content article .aside-info .service .mc .service-list {
+  width: 286px;
+  height: 164px;
+  overflow: hidden;
+}
+
+main .content article .aside-info .service .mc .service-list .service-item {
+  width: 94px;
+  height: 80px;
+  text-align: center;
+  float: left;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+main .content article .aside-info .service .mc .service-list .service-item a {
+  color: #9b8066;
+}
+
+main .content article .aside-info .service .mc .service-list .service-item .icon-sprite {
+  display: block;
+  margin: 10px auto 0;
+  width: 40px;
+  height: 40px;
+  background: url(../images/sprite.png) no-repeat;
+}
+
+main .content article .aside-info .service .mc .service-list .service-item .icon-service1 {
+  background-position: 0 0;
+}
+
+main .content article .aside-info .service .mc .service-list .service-item .icon-service2 {
+  background-position: -40px 0;
+}
+
+main .content article .aside-info .service .mc .service-list .service-item .icon-service3 {
+  background-position: -80px 0;
+}
+
+main .content article .aside-info .service .mc .service-list .service-item .icon-service4 {
+  background-position: -120px 0;
+}
+
+main .content article .aside-info .service .mc .service-list .service-item .icon-service5 {
+  background-position: -160px 0;
+}
+
+main .content article .aside-info .service .mc .service-list .service-item .icon-service6 {
+  background-position: -200px 0;
+}
+
+main .content article .aside-info .page-turner {
+  width: 286px;
+  height: 10px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+main .content article .aside-info .page-turner li {
+  display: inline-block;
+}
+
+main .content article .aside-info .page-turner li .btn1 {
+  width: 6px;
+  height: 6px;
+  border: 1px solid #aaa;
+  border-radius: 100%;
+}
+
+main .content article .aside-info .page-turner li .btn2 {
+  width: 6px;
+  height: 6px;
+  border: 1px solid #aaa;
+  border-radius: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 541px;
+  background-color: #EAEAEA;
+}
+
+footer nav {
+  margin: 0 auto;
+  width: 100%;
+  height: 541px;
+}
+
+footer nav .topNav {
+  margin: 0 auto;
+  width: 100%;
+  height: 304px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+footer nav .topNav .slogan-wrap {
+  margin: 0 auto;
+  width: 100%;
+  height: 102px;
+}
+
+footer nav .topNav .slogan-wrap .slogan {
+  margin: 0 auto;
+  width: 1190px;
+  height: 42px;
+  padding: 30px 0;
+}
+
+footer nav .topNav .slogan-wrap .slogan .item1 {
+  float: left;
+  width: 292px;
+  height: 42px;
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  color: #444;
+}
+
+footer nav .topNav .slogan-wrap .slogan .item1 i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 36px;
+  height: 42px;
+  background: url(../images/ico_service.png) no-repeat 0 0;
+}
+
+footer nav .topNav .slogan-wrap .slogan .item2 {
+  float: left;
+  width: 292px;
+  height: 42px;
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  color: #444;
+}
+
+footer nav .topNav .slogan-wrap .slogan .item2 i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 36px;
+  height: 42px;
+  background: url(../images/ico_service.png) no-repeat 0 -43px;
+}
+
+footer nav .topNav .slogan-wrap .slogan .item3 {
+  float: left;
+  width: 292px;
+  height: 42px;
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  color: #444;
+}
+
+footer nav .topNav .slogan-wrap .slogan .item3 i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 36px;
+  height: 42px;
+  background: url(../images/ico_service.png) no-repeat 0 -86px;
+}
+
+footer nav .topNav .slogan-wrap .slogan .item4 {
+  float: left;
+  width: 292px;
+  height: 42px;
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  color: #444;
+}
+
+footer nav .topNav .slogan-wrap .slogan .item4 i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 36px;
+  height: 42px;
+  background: url(../images/ico_service.png) no-repeat 0 -129px;
+}
+
+footer nav .topNav .navWrap {
+  margin: 0 auto;
+  width: 100%;
+  height: 202px;
+  border-top: solid 1px #dedede;
+  border-bottom: solid 1px #dedede;
+}
+
+footer nav .topNav .navWrap .nav {
+  margin: 0 auto;
+  padding: 20px 60px 0;
+  width: 1070px;
+  height: 182px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer nav .topNav .navWrap .nav .caption {
+  padding-bottom: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #777;
+}
+
+footer nav .topNav .navWrap .nav li > ol {
+  text-align: left;
+}
+
+footer nav .topNav .navWrap .nav ol li {
+  margin-bottom: 4px;
+  color: #666;
+  font-size: 12px;
+}
+
+footer .bottomNav {
+  margin: 0 auto;
+  width: 1190px;
+  height: 219px;
+  background-color: #EAEAEA;
+}
+
+footer .bottomNav .copyright_links {
+  text-align: center;
+}
+
+footer .bottomNav .copyright_links > p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+footer .bottomNav .copyright_links > p span {
+  margin: 0 10px;
+  color: #ccc;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer .bottomNav .copyright_info {
+  text-align: center;
+  margin-top: 10px;
+  line-height: 22px;
+  color: #999;
+}
+
+footer .bottomNav .copyright_info p {
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+footer .bottomNav .copyright_info p span {
+  margin: 0 10px;
+  font-size: 12px;
+  text-align: center;
+}

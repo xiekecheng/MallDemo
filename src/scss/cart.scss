@@ -1,0 +1,72 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.table thead th {
+    text-align: center;
+}
+
+
+.goods {
+    height: 150px;
+
+    .goodsImg {
+        width: 150px;
+        height: 130px;
+
+        >img {
+            width: 150px;
+            height: 130px;
+        }
+    }
+
+    .goodsDescr {
+        // background-color: aqua;
+        width: 400px;
+        height: 100px;
+        margin-left: 20px;
+
+        p {
+            font-size: 12px;
+            color: #333;
+        }
+    }
+}
+
+.cart thead {
+    background: #f3f3f3;
+}
+
+.table tfoot tr {
+    :nth-child(6) {
+        text-align: center;
+        background: #E64347;
+        color: #fff;
+    }
+
+    :nth-child(4) {
+        text-align: center;
+
+        .totalNum {
+            color: #e2231a;
+            font-weight: 700;
+            font-family: verdana;
+        }
+    }
+
+    :nth-child(5) {
+        text-align: center;
+
+        .totalPrice {
+            text-align: center;
+            font-size: 16px;
+            color: #e2231a;
+            font-family: verdana;
+            font-weight: 700;
+        }
+    }
+}

@@ -48,17 +48,97 @@ $(function () {
     var id = arr[1];
     // 发送ajax请求数据
     $.get('./php/detail.php',{id:id},res=>{
+        console.log(res);
         var {meta:{status,msg},data} = res;
-        console.log(data);
+        // console.log(data);
         if(status===1){
             $('.goodsName').text(data.name)
             $('.goodsPrice').text(data.price)
-            // $('.goodsDescr').text(data.name)
+            // console.log(data.description);
+            $('.goodsDescr').text(data.description)
+            // console.log(data.introduce);
+            $('[name="introduce"]').html(data.introduce);
+            // console.log($('.mask img'));
+            // $('.middle>img').prop('src',data.img)
+            $('.middle').html(`
+            <div class="mask"></div>
+            <img src="${data.img}" alt="">
+            <div class="big">
+                <img src="${data.img}" alt="">
+            </div>
+            `)
+
+            var arr = data.manyImg.split('==========');
+            // console.log(arr);
+            var imgStr = '';
+            arr.forEach((v,i) => {
+                if (i===0) {
+                    imgStr+= `
+                    <img class="active" src="${v}" alt="">
+                    `
+                }else{
+                    imgStr+= `
+                    <img src="${v}" alt="">
+                    `
+                }
+            });
+            $('.small').html(imgStr);
+            // 数据传输完毕后调用放大镜效果
+            enlarge();
+            // 加入购物车
+            addCart(username,id);
         }
     },'json')
-
+    // new Tab().init('tab');
+    var t = new Tab('tab')
+    t.init()
 
 })
+
+function addCart(username,id){
+    // console.log('加入购物车');
+    $('.addCart').on('click',function(){
+        // 判断是否登录
+        // console.log(username);
+        if(!username){
+            // 存储当前url以便之后跳转回来详情页
+            localStorage.setItem('url',location.href)
+            location.href = 'login1.html'
+            return false;
+        }
+
+        // 先判断本地存储中是否有数据
+        var data = localStorage.getItem('data')
+        // 查询是否有购物车,没有则创建,有则取之使用
+        if(!data){
+            var arr = []
+            
+        }else{
+            var arr = JSON.parse(data)
+        }
+        console.log('传入id,username',id,username);
+        console.log(arr);
+        // find 方法 从数组中找到满足条件的第一个元素,并返回该元素
+        var findResult = arr.find(item=>{
+            console.log('item.goodsid,item.username',item.goodsid,item.username);
+            console.log('id,username',id,username);
+            return item.goodsid==id&&item.username === username
+        })
+        
+        if(!findResult){
+            var obj = {
+                username,
+                goodsid:id,
+                number:1
+            }
+            arr.push(obj)
+        }else{
+            // 返回的findResult和数组中的findResult指向同一个地址,所以修改findResult.number++ ,数组中也会随之改变
+            findResult.number++
+        }
+        localStorage.setItem('data',JSON.stringify(arr))
+    })
+}
 
 function goLogin() {
     $('.customNav li:first').on('click', function () {
@@ -70,3 +150,4 @@ function goLogin() {
         // 登录成功跳转回详情页
     })
 }
+

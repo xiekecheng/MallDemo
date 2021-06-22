@@ -5,7 +5,7 @@ $(function () {
     if (username) {
         var str = `
             <li>
-            欢迎<span style="color:red; font-size:20px; margin:0 5px">${username}</span>来到京东商城
+            欢迎<span style="color:red; font-size:20px; margin:0 5px"><a href="user.html">${username}</a></span>来到京东商城
             
             </li>
             <li>

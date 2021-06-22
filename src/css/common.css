@@ -18,3 +18,335 @@
   line-height: 50px;
   margin: 0 10px;
 }
+
+.contentNav {
+  width: 100%;
+  height: 30px;
+  background-color: #E3E4E5;
+}
+
+.contentLogo {
+  margin: 0 auto;
+  width: 100%;
+  height: 82px;
+  background-color: #FFFFFF;
+}
+
+header {
+  width: 100%;
+  height: 112px;
+  background-color: #1491a8;
+}
+
+header nav {
+  margin: 0 auto;
+  width: 1190px;
+  height: 30px;
+  background-color: #E3E4E5;
+}
+
+header nav .fl {
+  float: left;
+}
+
+header nav .fl li:nth-child(1) {
+  float: left;
+}
+
+header nav .fl li:nth-child(1) a {
+  line-height: 30px;
+  text-decoration: none;
+  color: #999;
+  font-size: 12px;
+}
+
+header nav .fl li:nth-child(1) i {
+  font-family: iconfont;
+}
+
+header nav .fl li:nth-child(2) {
+  margin-left: 10px;
+  float: left;
+  color: #999;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+header nav .fr {
+  float: right;
+}
+
+header nav .fr li {
+  float: left;
+  padding: 0 10px;
+}
+
+header nav .fr .space {
+  width: 1px;
+  height: 12px;
+  float: left;
+  background: #ccc;
+  padding: 0;
+  margin-top: 9px;
+}
+
+header nav .fr a {
+  color: #999;
+  line-height: 30px;
+}
+
+header nav .fr li:nth-child(1) a {
+  text-decoration: none;
+}
+
+header nav .fr li:nth-child(1) i {
+  display: inline-block;
+  width: 38px;
+  height: 16px;
+  background: url(../images/user-plus-status.png) no-repeat 0 -68px;
+}
+
+header section {
+  margin: 0 auto;
+  width: 1190px;
+  height: 82px;
+}
+
+header section .logo {
+  width: 158px;
+  height: 82px;
+  float: left;
+}
+
+header section .logo a {
+  width: 158px;
+  height: 82px;
+  display: block;
+  background: url(../images/common.png) no-repeat 0 0;
+}
+
+header section .myJD {
+  float: left;
+  font-size: 20px;
+  color: #333;
+  width: 80px;
+  height: 18px;
+  padding: 40px 0 0 16px;
+}
+
+header section .itemNav {
+  float: left;
+  width: 200px;
+  height: 30px;
+  padding-top: 35px;
+  margin-left: 95px;
+}
+
+header section .itemNav .homePage {
+  color: #df3028;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center;
+  cursor: default;
+  margin-right: 25px;
+}
+
+header section .itemNav .homePage > a {
+  color: #df3028;
+}
+
+header section .itemNav .userSetting {
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center;
+  cursor: default;
+  color: #333;
+}
+
+footer {
+  width: 100%;
+  height: 541px;
+  background-color: #EAEAEA;
+}
+
+footer .navModify {
+  margin: 0 auto;
+  width: 100%;
+  height: 541px;
+}
+
+footer .navModify .topNav {
+  margin: 0 auto;
+  width: 100%;
+  height: 304px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+footer .navModify .topNav .slogan-wrap {
+  margin: 0 auto;
+  width: 100%;
+  height: 102px;
+}
+
+footer .navModify .topNav .slogan-wrap .slogan {
+  margin: 0 auto;
+  width: 1190px;
+  height: 42px;
+  padding: 30px 0;
+}
+
+footer .navModify .topNav .slogan-wrap .slogan .item1 {
+  float: left;
+  width: 292px;
+  height: 42px;
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  color: #444;
+}
+
+footer .navModify .topNav .slogan-wrap .slogan .item1 i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 36px;
+  height: 42px;
+  background: url(../images/ico_service.png) no-repeat 0 0;
+}
+
+footer .navModify .topNav .slogan-wrap .slogan .item2 {
+  float: left;
+  width: 292px;
+  height: 42px;
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  color: #444;
+}
+
+footer .navModify .topNav .slogan-wrap .slogan .item2 i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 36px;
+  height: 42px;
+  background: url(../images/ico_service.png) no-repeat 0 -43px;
+}
+
+footer .navModify .topNav .slogan-wrap .slogan .item3 {
+  float: left;
+  width: 292px;
+  height: 42px;
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  color: #444;
+}
+
+footer .navModify .topNav .slogan-wrap .slogan .item3 i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 36px;
+  height: 42px;
+  background: url(../images/ico_service.png) no-repeat 0 -86px;
+}
+
+footer .navModify .topNav .slogan-wrap .slogan .item4 {
+  float: left;
+  width: 292px;
+  height: 42px;
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  color: #444;
+}
+
+footer .navModify .topNav .slogan-wrap .slogan .item4 i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 36px;
+  height: 42px;
+  background: url(../images/ico_service.png) no-repeat 0 -129px;
+}
+
+footer .navModify .topNav .navWrap {
+  margin: 0 auto;
+  width: 100%;
+  height: 202px;
+  border-top: solid 1px #dedede;
+  border-bottom: solid 1px #dedede;
+}
+
+footer .navModify .topNav .navWrap .navModify2 {
+  margin: 0 auto;
+  padding: 20px 60px 0;
+  width: 1190px;
+  height: 182px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .navModify .topNav .navWrap .navModify2 .caption {
+  padding-bottom: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #777;
+}
+
+footer .navModify .topNav .navWrap .navModify2 li > ol {
+  text-align: left;
+}
+
+footer .navModify .topNav .navWrap .navModify2 ol li {
+  margin-bottom: 4px;
+  color: #666;
+  font-size: 12px;
+}
+
+footer .bottomNav {
+  margin: 0 auto;
+  width: 1190px;
+  height: 219px;
+  background-color: #EAEAEA;
+}
+
+footer .bottomNav .copyright_links {
+  text-align: center;
+}
+
+footer .bottomNav .copyright_links > p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+footer .bottomNav .copyright_links > p > a {
+  color: #666;
+}
+
+footer .bottomNav .copyright_links > p span {
+  margin: 0 10px;
+  color: #ccc;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer .bottomNav .copyright_info {
+  text-align: center;
+  margin-top: 10px;
+  line-height: 22px;
+  color: #999;
+}
+
+footer .bottomNav .copyright_info p {
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+footer .bottomNav .copyright_info p span {
+  margin: 0 10px;
+  font-size: 12px;
+  text-align: center;
+}

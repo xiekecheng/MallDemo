@@ -1,3 +1,7 @@
+body{
+    -webkit-font-smoothing: antialiased;
+}
+
 .jdnav{
     width: 1190px;
     margin: 0 auto;
@@ -22,7 +26,8 @@
     margin: 0;
 }
 .carousel{
-    width: 100%;
+    // width: 100%;
+    width: 1190px;
     height: 500px;
     border:1px solid #000;
     position: relative;
@@ -32,14 +37,16 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
+    // width: 100%;
+    width: 1190px;
     height: 500px;
 }
 .carousel ul li{
     display: none;
 }
 .carousel ul li a img{
-    width: 100%;
+    // width: 100%;
+    width: 1190px;
     height: 500px;
 }
 .carousel ul li.active{

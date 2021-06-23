@@ -10,7 +10,7 @@ $con = mysqli_connect( 'localhost', 'root', 'xkc19950', 'test' );
 mysqli_query( $con, 'set names utf8' );
 
 // 验证账号密码
-$sql = "select * from goods where id = $id";
+$sql = "select * from jdgoods where id = $id";
 
 // 请求\数据
 $res = mysqli_query( $con, $sql );

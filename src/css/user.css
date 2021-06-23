@@ -119,7 +119,6 @@ header section .myJD {
   float: left;
   font-size: 20px;
   color: #333;
-  width: 80px;
   height: 18px;
   padding: 40px 0 0 16px;
 }
@@ -151,6 +150,7 @@ header section .itemNav .userSetting {
   text-align: center;
   cursor: default;
   color: #333;
+  cursor: pointer;
 }
 
 main {

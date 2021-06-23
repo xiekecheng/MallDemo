@@ -6,9 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的京东</title>
+
     <link rel="shortcut icon" href="./favicon.ico" />
+      <!-- bootstrap - 项目中需要用的 - 第三方的 -->
+  <!-- <link rel="stylesheet" href="../node_modules//bootstrap/dist/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="css/reset1.css">
+
     <link rel="stylesheet" href="css/user.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- cookie -->
+    <script src="./js/cookie.js"></script>
+  <!-- 引入jquery -->
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <!-- 引入layer -->
+  <script src="../node_modules/layui-layer/dist/layer.js"></script>
+      <!-- 引入自己的js -->
+  <!-- <script src="./js/common.js"></script> -->
+  <script src="./js/user.js"></script>
 </head>
 
 <body>
@@ -17,13 +31,20 @@
             <nav>
                 <ul class="fl">
                     <li><i></i><a href="">京东首页</a> </li>
-                    <li> 广东 </li>
+                    <li><i></i><a href="list.html">列表页</a> </li>
                 </ul>
                 <ul class="fr">
-                    <li><a href="">代码猪胖胖</a><i></i></li>
+                    <span class="loginWrap">
+                        <li><a href="login1.html">登录</a><i></i></li>
+                        <li class="space"></li>
+                        <li><a href="register1.html">注册</a></li>
+                        <li class="space"></li>
+                      </span>
+
+                    <!-- <li><a href="">代码猪胖胖</a><i></i></li>
                     <li class="space"></li>
                     <li><a href="">退出登录</a></li>
-                    <li class="space"></li>
+                    <li class="space"></li> -->
                     <li><a href="">我的订单</a></li>
                     <li class="space"></li>
                     <li><a href="">我的京东</a></li>
@@ -61,6 +82,10 @@
         </div>
 
     </header>
+
+
+
+
     <main>
         <div class="content">
             <aside>
@@ -120,7 +145,8 @@
                         <div class="avatar">
                             <span>银牌</span>
                             <a href="" class="portrait">
-                                <img src="./images/avatar.jpg" alt="">
+                                <!-- <img src="./images/avatar.jpg" alt=""> -->
+                                <img src="/src/uploads/jd.png" alt="">
                             </a>
                             <div class="username"><a href="">代码猪胖胖</a></div>
                             <div class="score">

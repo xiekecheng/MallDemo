@@ -3,25 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "bootstrap": "^3.4.1",
-    "jquery": "^3.6.0",
-    "layui-layer": "^1.0.9",
-    "normalize.css": "^8.0.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xiekecheng/MallDemo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/xiekecheng/MallDemo/issues"
-  },
-  "homepage": "https://github.com/xiekecheng/MallDemo#readme"
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "layui-layer": "^1.0.9",
+    "normalize.css": "^8.0.1"
+  }
 }
